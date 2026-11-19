@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Websites & Systems — Mohamed Essam</title>
+<meta name="description" content="Websites, e-commerce stores and business systems designed and built by Mohamed Essam: Epsilon Web, Clipper booking platform, car showcase, gold store and an AI fitness coaching app.">
+<style>
+  :root{--bg:#0a0a0f;--panel:#12121a;--line:#23232f;--txt:#f2f2f5;--mut:#a7a7b5;--acc:#ff4d2e;--acc2:#ffb03a}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--txt);font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;line-height:1.6}
+  a{color:inherit}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+  header{position:sticky;top:0;background:rgba(10,10,15,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:10}
+  .nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0}
+  .logo{font-weight:800;letter-spacing:.5px;font-size:18px;text-decoration:none}
+  .logo span{color:var(--acc)}
+  .nav nav a{margin-left:22px;text-decoration:none;color:var(--mut);font-size:14px}
+  .nav nav a:hover,.nav nav a.on{color:var(--txt)}
+  .hero{padding:60px 0 10px}
+  .kicker{color:var(--acc2);font-weight:700;letter-spacing:2px;font-size:12px;text-transform:uppercase}
+  h1{font-size:44px;line-height:1.08;margin:14px 0 16px;font-weight:900}
+  h1 em{font-style:normal;color:var(--acc)}
+  .hero p{color:var(--mut);font-size:18px;max-width:62ch}
+  section{padding:44px 0}
+  h2{font-size:30px;font-weight:900;margin-bottom:8px}
+  .sub{color:var(--mut);margin-bottom:28px;max-width:65ch}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:26px}
+  .card h3{font-size:20px;margin-bottom:8px}
+  .card p{color:var(--mut);font-size:14px}
+  .tags{margin:14px 0;display:flex;gap:8px;flex-wrap:wrap}
+  .tag{font-size:11px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--mut)}
+  .links{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+  .lnk{font-size:13px;font-weight:700;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:8px 16px;background:#0d0d14}
+  .lnk.live{border-color:var(--acc);color:#fff;background:var(--acc)}
+  .lnk:hover{filter:brightness(1.2)}
+  .svc{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .svc .box{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:24px}
+  .svc h3{margin-bottom:10px;font-size:19px}
+  .svc p{color:var(--mut);font-size:14px}
+  .btn{display:inline-block;padding:13px 24px;border-radius:999px;text-decoration:none;font-weight:700;font-size:15px;border:1px solid var(--line);background:var(--panel)}
+  .btn.primary{background:var(--acc);border-color:var(--acc);color:#fff}
+  .btn:hover{filter:brightness(1.15)}
+  .contact{background:linear-gradient(135deg,#17121a,#0f0f16);border:1px solid var(--line);border-radius:24px;padding:36px;text-align:center}
+  .contact p{color:var(--mut);max-width:60ch;margin:10px auto 22px}
+  footer{border-top:1px solid var(--line);padding:26px 0;color:var(--mut);font-size:13px;text-align:center}
+  @media(max-width:900px){.grid,.svc{grid-template-columns:1fr}h1{font-size:36px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="logo" href="index.html">MOHAMED<span>.</span>ESSAM</a>
+  <nav><a href="media-buyer.html">Media Buying</a><a href="videos.html">Videos</a><a href="projects.html" class="on">Projects</a><a href="index.html">Home</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <div class="kicker">💻 Websites &amp; Systems</div>
+    <h1>Stores and systems that <em>convert</em> the traffic.</h1>
+    <p>Ads are only half the job — the page they land on decides the sale. I design and build e-commerce stores, business websites and internal systems, from the first sketch to a working product.</p>
+  </div>
+
+  <section>
+    <h2>Selected projects</h2>
+    <p class="sub">Real projects, designed and built end-to-end. Where a live demo exists, you can open it right now.</p>
+    <div class="grid">
+
+      <div class="card"><h3>🏢 Epsilon Web — Business Management System</h3>
+      <p>A complete internal system for a real company: sales and purchase invoices, inventory, customer and supplier accounts, payments, expenses, commissions, cash &amp; bank, profit reports and a CRM pipeline — Arabic &amp; English, with role-based access.</p>
+      <div class="tags"><span class="tag">PHP + MySQL</span><span class="tag">CRM</span><span class="tag">AR / EN</span></div>
+      <div class="links"><a class="lnk" href="https://github.com/mo7md2001/epsilon-web" target="_blank" rel="noopener">View project →</a></div></div>
+
+      <div class="card"><h3>🚗 Car Showcase — Auto-Updating Showroom</h3>
+      <p>A display website for a car broker that syncs itself automatically: new cars appear, price changes update, and sold cars stay visible marked as sold — no manual work.</p>
+      <div class="tags"><span class="tag">Website</span><span class="tag">Auto-sync</span><span class="tag">Live demo</span></div>
+      <div class="links"><a class="lnk live" href="https://mo7md2001.github.io/car-showcase/" target="_blank" rel="noopener">Open live demo →</a><a class="lnk" href="https://github.com/mo7md2001/car-showcase" target="_blank" rel="noopener">Project →</a></div></div>
+
+      <div class="card"><h3>✨ Gold Store — Luxury Jewelry Storefront</h3>
+      <p>A luxury e-commerce design for a gold jewelry brand: product pages for gold and diamond pieces, cart, and checkout with cash on delivery and manual transfer confirmation.</p>
+      <div class="tags"><span class="tag">E-commerce</span><span class="tag">Luxury design</span><span class="tag">Live demo</span></div>
+      <div class="links"><a class="lnk live" href="https://mo7md2001.github.io/gold-store-mockup/" target="_blank" rel="noopener">Open live demo →</a><a class="lnk" href="https://github.com/mo7md2001/gold-store-mockup" target="_blank" rel="noopener">Project →</a></div></div>
+
+      <div class="card"><h3>💈 Clipper — Barber Booking Platform</h3>
+      <p>A booking platform for barbershops in Egypt: shop discovery, per-chair availability, step-by-step booking, QR-code booking per shop, offers and coupons, reviews, and barber &amp; admin dashboards — Arabic-first, mobile-first.</p>
+      <div class="tags"><span class="tag">Platform</span><span class="tag">Booking system</span><span class="tag">AR / EN</span></div>
+      <div class="links"><a class="lnk" href="https://wa.me/201063705088?text=Hi%20Mohamed!%20I%27d%20like%20a%20demo%20of%20the%20Clipper%20platform." target="_blank" rel="noopener">Ask for a demo →</a></div></div>
+
+      <div class="card"><h3>🏋️ AI Fitness Coaching App</h3>
+      <p>A multi-client coaching app with an AI coach: health onboarding, automatic calorie and macro plans, training programs with illustrated exercises, daily check-ins, progress tracking and automatic re-engagement messages.</p>
+      <div class="tags"><span class="tag">Web app</span><span class="tag">AI coach</span><span class="tag">Arabic</span></div>
+      <div class="links"><a class="lnk" href="https://wa.me/201063705088?text=Hi%20Mohamed!%20I%27d%20like%20a%20demo%20of%20the%20coaching%20app." target="_blank" rel="noopener">Ask for a demo →</a></div></div>
+
+      <div class="card"><h3>📄 This Portfolio</h3>
+      <p>The site you're reading — a fast static portfolio with separate pages per specialty, hosted free and updated continuously.</p>
+      <div class="tags"><span class="tag">Static site</span><span class="tag">GitHub Pages</span></div>
+      <div class="links"><a class="lnk" href="https://github.com/mo7md2001" target="_blank" rel="noopener">My GitHub profile →</a></div></div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>What I can build for you</h2>
+    <div class="svc">
+      <div class="box"><h3>🛒 E-commerce Stores</h3><p>Complete online stores: catalogue, cart, checkout, payment and shipping setup, offers and discount codes.</p></div>
+      <div class="box"><h3>🌐 Websites &amp; Landing Pages</h3><p>Fast, clean websites and campaign landing pages designed around one job: turning visitors into customers.</p></div>
+      <div class="box"><h3>🧩 Business Systems</h3><p>Internal tools — sales, inventory, accounts, booking and dashboards — built around how your business actually runs.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="contact">
+      <h2>Need a store or a system?</h2>
+      <p>Tell me what you're building and I'll come back with scope, timeline and price — no obligation.</p>
+      <a class="btn primary" href="https://wa.me/201063705088?text=Hi%20Mohamed!%20I%27d%20like%20a%20website%20%2F%20store%20%2F%20system." target="_blank" rel="noopener">Chat on WhatsApp — +20 106 370 5088</a>
+    </div>
+  </section>
+</div>
+
+<footer>© 2026 Mohamed Essam — Media Buyer &amp; Digital Marketing Specialist.</footer>
+</body>
+</html>
